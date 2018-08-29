@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eef0f4;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #5bc0ce;
+}
+.register{
+    height: 40px;
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    font-size: 0.9em;
+    position: absolute;
+    left: 20px;
+}
+.login{
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    position: absolute;
+    left: 45%;
+    
+}
+.close{
+    height: 40px;
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    font-size: 0.9em;
+    position: absolute;
+    right: 20px;
+}
+.phoneNum{
+    margin: 10px auto;
+    background-color: #fff;
+}
+.phoneNum input{
+     outline: none;
+     width: 60%;
+     color: #ccc;
+    border: solid 0px ;
+    height: 50px;
+    background: url(images/login_05.png) no-repeat  center ;
+    background-position: 0px;
+    padding-left: 74px;
+    background-size: 74px 50px;
+}
+
+.password{
+    background-color: #fff;
+}
+.password input{
+    outline: none;
+     width: 60%;
+     color: #ccc;
+    border: solid 0px ;
+    height: 50px;
+    background: url(images/login_09.png) no-repeat  center ;
+    background-position: 0px;
+    padding-left: 74px;
+    background-size: 74px 50px;
+}
+
+.btn{
+    margin: 10px auto;
+    height: 50px;
+}
+.btn button{
+    height: 50px;
+    background-color: #5bc0ce;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: aliceblue;
+}
+.forgetpsw{
+    position: absolute;
+    right:10px;
+}
+
+.forgetpsw a{
+    color: #5bc0ce;
+    font-size: 0.7em;
+}
+

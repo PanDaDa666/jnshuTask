@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="register">注册</div>
+        <div class="login">登录</div>
+        <div class="close">关闭</div>
+    </div>
+
+    <div class="phoneNum">
+        <input type="text" value="请输入手机号" id="phone">
+    
+    </div>
+
+    <div class="password">
+        <input type="text" value="请输入密码" id="psw">
+    </div>
+
+    <div class="btn">
+        <button type="button" value="登录">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+    </div>
+
+    <div class="forgetpsw">
+        <a href="#">忘记密码</a>
+    </div>
+    
+
+    <script>
+        var input = document.getElementById("phone");
+    input.onfocus = function(){
+        if(this.value =="请输入手机号"){
+            this.value ="";
+            this.style.color = "black";
+        }
+    }
+
+    input.onblur = function(){
+        if(this.value.length ==0){
+            this.value = "请输入手机号";
+            this.style.color = "#ccc";
+        }
+    }
+
+    var input1 = document.getElementById("psw");
+    input1.onfocus = function(){
+        if(this.value == "请输入密码"){
+            this.value ="";
+            this.style.color = "black";
+            this.type = "password";
+        }
+    }
+
+    input1.onblur = function(){
+        if(this.value.length ==0){
+            this.value = "请输入密码";
+            this.style.color="#ccc";
+            this.type = "text";
+        }
+    }
+    </script>
+</body>
+</html>
