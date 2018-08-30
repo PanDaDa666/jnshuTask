@@ -46,10 +46,11 @@ body{
 .phoneNum{
     margin: 10px auto;
     background-color: #fff;
+    overflow: auto;
 }
 .phoneNum input{
      outline: none;
-     width: 60%;
+     width: 100%;
      color: #ccc;
     border: solid 0px ;
     height: 50px;
@@ -57,14 +58,16 @@ body{
     background-position: 0px;
     padding-left: 74px;
     background-size: 74px 50px;
+    box-sizing: border-box;
 }
 
 .password{
     background-color: #fff;
+    overflow: auto;
 }
 .password input{
     outline: none;
-     width: 60%;
+     width: 100%;
      color: #ccc;
     border: solid 0px ;
     height: 50px;
@@ -72,6 +75,7 @@ body{
     background-position: 0px;
     padding-left: 74px;
     background-size: 74px 50px;
+    box-sizing: border-box;
 }
 
 .btn{
@@ -86,6 +90,7 @@ body{
     cursor: pointer;
     font-size: 1em;
     color: aliceblue;
+    border: none;
 }
 .forgetpsw{
     position: absolute;
