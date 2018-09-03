@@ -201,7 +201,7 @@ body{
     background: url(images/year_03.png) center no-repeat;
     background-position-y: auto;
     background-position-x: 15px;
-    background-size: 80px;
+    background-size: 70px;
     padding-left: 100px;
     box-sizing: border-box;
     border-bottom: 1px solid #ccc;
@@ -216,7 +216,7 @@ body{
     background: url(images/p1_07.png) center no-repeat;
     background-position-y: auto;
     background-position-x: 15px;
-    background-size: 80px;
+    background-size: 70px;
     padding-left: 100px;
     box-sizing: border-box;
     border-bottom: 1px solid #ccc;
@@ -231,7 +231,7 @@ body{
     background: url(images/p1_10.png) center no-repeat;
     background-position-y: auto;
     background-position-x: 15px;
-    background-size: 80px;
+    background-size: 70px;
     padding-left: 100px;
     box-sizing: border-box;
     border-bottom: 1px solid #ccc;
@@ -247,7 +247,7 @@ body{
     background: url(images/p1_13.png) center no-repeat;
     background-position-y: auto;
     background-position-x: 15px;
-    background-size: 80px;
+    background-size: 70px;
     padding-left: 100px;
     box-sizing: border-box;
     border-bottom: 1px solid #ccc;
@@ -256,6 +256,7 @@ body{
      display:inline; 
      padding-top: 15px;
      padding-bottom: 15px;
+     padding-right: 20px;
      font-size: 0.8rem;
 }
 
